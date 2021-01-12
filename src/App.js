@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Display from './component/Display';
+import Button from './component/Button';
+
 import './App.css'
 
 class App extends Component {
@@ -23,16 +26,6 @@ class App extends Component {
         </div>
       </div>
     );
-  }  
-}
-
-const Display = (props) => 
-  <div>
-    <h1>{props.value}</h1>
-  </div>
-const Button = (props) => 
-  <div>
-    <button onClick={props.clickHandler}>{props.children}</button>
-  </div>
-
+  }
+}  
 export default App;
