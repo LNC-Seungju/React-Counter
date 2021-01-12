@@ -1,0 +1,22 @@
+.App { 
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  padding: 20px; 
+  border-radius: 10px;
+  border: 5px solid royalblue;
+}
+.App > div { display: flex; }
+.App > div > div { width: 50%; height: 30px; }
+h1 { text-align: center; width: 100%; }
+button { 
+  display: block;
+  width: 100%; height: 100%; 
+  border: 1px solid #eee; 
+  font-weight: bold; color: #fff; font-size: 20px;
+  background-color: royalblue; 
+  outline: none; 
+  transition: .3s;  
+}
+button:hover { background-color: #fff; color: royalblue; }
